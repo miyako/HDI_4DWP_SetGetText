@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Project/Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="HDI2_GroupRange" resname="HDI2_GroupRange">
+				<source>Range</source>
+				<target>Range</target>
+			</trans-unit>
+			<trans-unit id="HDI2_RadioHeader" resname="HDI2_RadioHeader">
+				<source>Header</source>
+				<target>Header</target>
+			</trans-unit>
+			<trans-unit id="HDI2_RadioBody" resname="HDI2_RadioBody">
+				<source>Body</source>
+				<target>Body</target>
+			</trans-unit>
+			<trans-unit id="HDI2_RadioFooter" resname="HDI2_RadioFooter">
+				<source>Footer</source>
+				<target>Footer</target>
+			</trans-unit>
+			<trans-unit id="HDI2_RadioUserSelection" resname="HDI2_RadioUserSelection">
+				<source>User Selection</source>
+				<target>User Selection</target>
+			</trans-unit>
+			<trans-unit id="HDI2_GroupPosition" resname="HDI2_GroupPosition">
+				<source>Position</source>
+				<target>Position</target>
+			</trans-unit>
+			<trans-unit id="HDI2_RadioBefore" resname="HDI2_RadioBefore">
+				<source>Before</source>
+				<target>Before</target>
+			</trans-unit>
+			<trans-unit id="HDI2_RadioReplace" resname="HDI2_RadioReplace">
+				<source>Replace</source>
+				<target>Replace</target>
+			</trans-unit>
+			<trans-unit id="HDI2_RadioAfter" resname="HDI2_RadioAfter">
+				<source>After</source>
+				<target>After</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonSetText" resname="HDI2_ButtonSetText">
+				<source>Set text</source>
+				<target>Set text</target>
+			</trans-unit>
+			<trans-unit id="HDI2_GroupGetExpressions" resname="HDI2_GroupGetExpressions">
+				<source>Get expressions…</source>
+				<target>Get expressions…</target>
+			</trans-unit>
+			<trans-unit id="HDI2_RadioAsValues" resname="HDI2_RadioAsValues">
+				<source>As values (default)</source>
+				<target>As values (default)</target>
+			</trans-unit>
+			<trans-unit id="HDI2_RadioAsSource" resname="HDI2_RadioAsSource">
+				<source>As source</source>
+				<target>As source</target>
+			</trans-unit>
+			<trans-unit id="HDI2_RadioAsSpace" resname="HDI2_RadioAsSpace">
+				<source>As space</source>
+				<target>As space</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonGetText" resname="HDI2_ButtonGetText">
+				<source>Get text</source>
+				<target>Get text</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

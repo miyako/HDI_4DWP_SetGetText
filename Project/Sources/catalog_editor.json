@@ -1,0 +1,48 @@
+{
+	"tables": {
+		"(Employees)": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "387.56640625",
+				"top": "108.89453125",
+				"width": "120",
+				"height": "167.33203125"
+			},
+			"displayable_fields_count": 6
+		},
+		"INFO": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "0",
+				"top": "0",
+				"width": "120",
+				"height": "246.83984375"
+			},
+			"displayable_fields_count": 9,
+			"fields": {
+				"PageNumber": {
+					"position": 2
+				},
+				"TabTitle": {
+					"position": 3
+				},
+				"Description": {
+					"position": 4
+				},
+				"ID": {
+					"position": 1
+				}
+			}
+		}
+	}
+}
