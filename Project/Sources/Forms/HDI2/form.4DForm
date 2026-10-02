@@ -1,0 +1,406 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 960,
+	"windowMaxWidth": 32000,
+	"windowMinHeight": 640,
+	"windowMaxHeight": 32000,
+	"width": 960,
+	"height": 640,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Line": {
+					"type": "line",
+					"top": 0,
+					"left": 480,
+					"height": 640,
+					"visibility": "hidden",
+					"sizingY": "grow",
+					"stroke": "#800080",
+					"strokeDashArray": "1 1"
+				},
+				"WParea": {
+					"type": "write",
+					"top": 20,
+					"left": 20,
+					"width": 460,
+					"height": 600,
+					"sizingY": "grow",
+					"dataSource": "WParea",
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"zoom": 75,
+					"showSelection": true,
+					"showPageFrames": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"_TabTitles": {
+					"type": "tab",
+					"top": 20,
+					"left": 500,
+					"width": 440,
+					"height": 600,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "_TabTitles",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"1",
+						"2"
+					],
+					"action": "GotoPage",
+					"events": [
+						"onClick"
+					]
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 230,
+					"left": 520,
+					"width": 180,
+					"height": 110,
+					"text": "Range"
+				},
+				"Radio Button3": {
+					"type": "radio",
+					"top": 250,
+					"left": 540,
+					"width": 140,
+					"height": 20,
+					"dataSource": "rHeader",
+					"text": "Header",
+					"focusable": false,
+					"radioGroup": "Group8",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button4": {
+					"type": "radio",
+					"top": 270,
+					"left": 540,
+					"width": 140,
+					"height": 20,
+					"dataSource": "rBody",
+					"text": "Body",
+					"focusable": false,
+					"radioGroup": "Group8",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button5": {
+					"type": "radio",
+					"top": 290,
+					"left": 540,
+					"width": 140,
+					"height": 20,
+					"dataSource": "rFooter",
+					"text": "Footer",
+					"focusable": false,
+					"radioGroup": "Group8",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button6": {
+					"type": "radio",
+					"top": 310,
+					"left": 540,
+					"width": 140,
+					"height": 20,
+					"dataSource": "rUserSelection",
+					"text": "User Selection",
+					"focusable": false,
+					"radioGroup": "Group8",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Group Box2": {
+					"type": "groupBox",
+					"top": 230,
+					"left": 720,
+					"width": 200,
+					"height": 90,
+					"text": "Position"
+				},
+				"Button7": {
+					"type": "button",
+					"top": 580,
+					"left": 810,
+					"width": 110,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "Set text",
+					"focusable": false,
+					"method": "ObjectMethods/Button7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 360,
+					"left": 520,
+					"width": 400,
+					"height": 200,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "vText1",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Radio Button": {
+					"type": "radio",
+					"top": 250,
+					"left": 740,
+					"width": 160,
+					"height": 20,
+					"dataSource": "rBefore",
+					"text": "Before",
+					"focusable": false,
+					"radioGroup": "Group11",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button1": {
+					"type": "radio",
+					"top": 270,
+					"left": 740,
+					"width": 160,
+					"height": 20,
+					"dataSource": "rReplace",
+					"text": "Replace",
+					"focusable": false,
+					"radioGroup": "Group11",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button2": {
+					"type": "radio",
+					"top": 290,
+					"left": 740,
+					"width": 160,
+					"height": 20,
+					"dataSource": "rAfter",
+					"text": "After",
+					"focusable": false,
+					"radioGroup": "Group11",
+					"events": [
+						"onClick"
+					]
+				},
+				"information1": {
+					"type": "input",
+					"top": 69,
+					"left": 520,
+					"width": 400,
+					"height": 150,
+					"sizingX": "grow",
+					"dataSource": "_Descriptions{1}",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Button8": {
+					"type": "button",
+					"top": 580,
+					"left": 810,
+					"width": 110,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "Get text",
+					"focusable": false,
+					"method": "ObjectMethods/Button8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 360,
+					"left": 520,
+					"width": 400,
+					"height": 200,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "vText2",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Group Box3": {
+					"type": "groupBox",
+					"top": 230,
+					"left": 720,
+					"width": 200,
+					"height": 90,
+					"text": "Get expressions…"
+				},
+				"Radio Button8": {
+					"type": "radio",
+					"top": 250,
+					"left": 740,
+					"width": 160,
+					"height": 20,
+					"dataSource": "rExpAsValue",
+					"text": "As values (default)",
+					"focusable": false,
+					"radioGroup": "Group10",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button9": {
+					"type": "radio",
+					"top": 270,
+					"left": 740,
+					"width": 160,
+					"height": 20,
+					"dataSource": "rExpAsSource",
+					"text": "As source",
+					"focusable": false,
+					"radioGroup": "Group10",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button7": {
+					"type": "radio",
+					"top": 290,
+					"left": 740,
+					"width": 160,
+					"height": 20,
+					"dataSource": "rExpAsSpace",
+					"text": "As space",
+					"focusable": false,
+					"radioGroup": "Group10",
+					"events": [
+						"onClick"
+					]
+				},
+				"information2": {
+					"type": "input",
+					"top": 69,
+					"left": 520,
+					"width": 400,
+					"height": 150,
+					"sizingX": "grow",
+					"dataSource": "_Descriptions{2}",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group11": [
+				"Radio Button",
+				"Radio Button1",
+				"Radio Button2"
+			],
+			"Group10": [
+				"Radio Button8",
+				"Radio Button9",
+				"Radio Button7"
+			],
+			"Group8": [
+				"Radio Button3",
+				"Radio Button4",
+				"Radio Button5",
+				"Radio Button6"
+			]
+		},
+		"defaultView": "View 1",
+		"activeView": "View 3",
+		"views": {
+			"View 1": {},
+			"Guides": {
+				"objects": [
+					"Line"
+				]
+			},
+			"View 3": {
+				"objects": [
+					"_TabTitles",
+					"Group Box1",
+					"Group8",
+					"Group Box2",
+					"Button7",
+					"Variable7",
+					"Group11",
+					"Button8",
+					"Variable8",
+					"Group Box3",
+					"Group10"
+				]
+			},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}
