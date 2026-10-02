@@ -1,6 +1,5 @@
-C_OBJECT:C1216($ref)
-C_OBJECT:C1216($range)
-C_LONGINT:C283($option)
+var $ref; $range : Object
+var $option : Integer
 
 Case of 
 	: (rHeader=1)

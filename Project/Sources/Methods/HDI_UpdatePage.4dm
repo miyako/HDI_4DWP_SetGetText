@@ -1,4 +1,6 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
+#DECLARE($page : Integer)
+
 //C_LONGINT($1)
 //C_LONGINT($Page;$i;$n)
 

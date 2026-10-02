@@ -1,5 +1,4 @@
-C_LONGINT:C283($i)
-C_LONGINT:C283($page)
+var $page : Integer
 
 Case of 
 		

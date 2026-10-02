@@ -83,7 +83,8 @@
 					"left": 520,
 					"width": 180,
 					"height": 110,
-					"text": "Range"
+					"text": ":xliff:HDI2_GroupRange",
+					"stroke": "automatic"
 				},
 				"Radio Button3": {
 					"type": "radio",
@@ -92,12 +93,13 @@
 					"width": 140,
 					"height": 20,
 					"dataSource": "rHeader",
-					"text": "Header",
+					"text": ":xliff:HDI2_RadioHeader",
 					"focusable": false,
 					"radioGroup": "Group8",
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Radio Button4": {
 					"type": "radio",
@@ -106,12 +108,13 @@
 					"width": 140,
 					"height": 20,
 					"dataSource": "rBody",
-					"text": "Body",
+					"text": ":xliff:HDI2_RadioBody",
 					"focusable": false,
 					"radioGroup": "Group8",
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Radio Button5": {
 					"type": "radio",
@@ -120,12 +123,13 @@
 					"width": 140,
 					"height": 20,
 					"dataSource": "rFooter",
-					"text": "Footer",
+					"text": ":xliff:HDI2_RadioFooter",
 					"focusable": false,
 					"radioGroup": "Group8",
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Radio Button6": {
 					"type": "radio",
@@ -134,12 +138,13 @@
 					"width": 140,
 					"height": 20,
 					"dataSource": "rUserSelection",
-					"text": "User Selection",
+					"text": ":xliff:HDI2_RadioUserSelection",
 					"focusable": false,
 					"radioGroup": "Group8",
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -151,17 +156,18 @@
 					"left": 720,
 					"width": 200,
 					"height": 90,
-					"text": "Position"
+					"text": ":xliff:HDI2_GroupPosition",
+					"stroke": "automatic"
 				},
 				"Button7": {
 					"type": "button",
 					"top": 580,
 					"left": 810,
 					"width": 110,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Set text",
+					"text": ":xliff:HDI2_ButtonSetText",
+					"class": "default",
 					"focusable": false,
 					"method": "ObjectMethods/Button7.4dm",
 					"events": [
@@ -181,7 +187,9 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"Radio Button": {
 					"type": "radio",
@@ -190,12 +198,13 @@
 					"width": 160,
 					"height": 20,
 					"dataSource": "rBefore",
-					"text": "Before",
+					"text": ":xliff:HDI2_RadioBefore",
 					"focusable": false,
 					"radioGroup": "Group11",
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Radio Button1": {
 					"type": "radio",
@@ -204,12 +213,13 @@
 					"width": 160,
 					"height": 20,
 					"dataSource": "rReplace",
-					"text": "Replace",
+					"text": ":xliff:HDI2_RadioReplace",
 					"focusable": false,
 					"radioGroup": "Group11",
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Radio Button2": {
 					"type": "radio",
@@ -218,12 +228,13 @@
 					"width": 160,
 					"height": 20,
 					"dataSource": "rAfter",
-					"text": "After",
+					"text": ":xliff:HDI2_RadioAfter",
 					"focusable": false,
 					"radioGroup": "Group11",
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"information1": {
 					"type": "input",
@@ -243,7 +254,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -254,10 +266,10 @@
 					"top": 580,
 					"left": 810,
 					"width": 110,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Get text",
+					"text": ":xliff:HDI2_ButtonGetText",
+					"class": "default",
 					"focusable": false,
 					"method": "ObjectMethods/Button8.4dm",
 					"events": [
@@ -277,7 +289,9 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"Group Box3": {
 					"type": "groupBox",
@@ -285,7 +299,8 @@
 					"left": 720,
 					"width": 200,
 					"height": 90,
-					"text": "Get expressions…"
+					"text": ":xliff:HDI2_GroupGetExpressions",
+					"stroke": "automatic"
 				},
 				"Radio Button8": {
 					"type": "radio",
@@ -294,12 +309,13 @@
 					"width": 160,
 					"height": 20,
 					"dataSource": "rExpAsValue",
-					"text": "As values (default)",
+					"text": ":xliff:HDI2_RadioAsValues",
 					"focusable": false,
 					"radioGroup": "Group10",
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Radio Button9": {
 					"type": "radio",
@@ -308,12 +324,13 @@
 					"width": 160,
 					"height": 20,
 					"dataSource": "rExpAsSource",
-					"text": "As source",
+					"text": ":xliff:HDI2_RadioAsSource",
 					"focusable": false,
 					"radioGroup": "Group10",
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Radio Button7": {
 					"type": "radio",
@@ -322,12 +339,13 @@
 					"width": 160,
 					"height": 20,
 					"dataSource": "rExpAsSpace",
-					"text": "As space",
+					"text": ":xliff:HDI2_RadioAsSpace",
 					"focusable": false,
 					"radioGroup": "Group10",
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"information2": {
 					"type": "input",
@@ -347,7 +365,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				}
 			}
 		}

@@ -1,5 +1,2 @@
 //%attributes = {"invisible":true}
-C_LONGINT:C283(00_Start; $1)
-
-//HDI_UpdatePage
-C_LONGINT:C283(HDI_UpdatePage; $1)
+//00_Start and HDI_UpdatePage now declare their parameters with #DECLARE

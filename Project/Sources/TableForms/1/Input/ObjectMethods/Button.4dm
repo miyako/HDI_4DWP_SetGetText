@@ -1,6 +1,4 @@
-C_OBJECT:C1216($ref)
-C_OBJECT:C1216($table; $row)
-C_OBJECT:C1216($range)
+var $table; $row; $range : Object
 
 
 $range:=WP Text range:C1341([INFO:1]Sample:5; wk end text:K81:164; wk end text:K81:164)
